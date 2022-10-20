@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homestate</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- START-header -->
+    <header>
+        <div class="mobile-menu">
+           <a href=""><i class="fa-solid fa-bars"></i></a>
+        </div>
+            <div class="logo">
+                <img src="./assets/img/logo.PNG" alt="Website logo">
+            </div>
+                <!-- START-menu-wrap -->
+                <nav>
+                    <ul class="menu">
+                        <li class="primary"><a href="#">Home</a></li>
+                        <li class="has-submenu"><a href="#">Properties<i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="#">Rent</a></li>
+                            <li><a href="#">Buy</a></li>
+                            <li><a href="#">Sell</a></li>
+                            <li><a href="#">Home loans</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="#">Agent</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+    </header>
+
+    <!-- START-main-section -->
+    <main>
+        <div class="card">
+            <span class="status">Sale</span>
+            <h1>New House in Canada</h1>
+            <h2 class="price">$400 000</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <p class="details">
+                <span>2000 ft sq</span>
+                <span>4 Bedrooms</span>
+                <span>3 Bathrooms</span>
+                <span>2 Garage</span>
+            </p>
+            <a href="#">LEARN MORE</a>
+        </div>
+    </main>
+    <!-- START-first-section -->
+    <section class="properties">
+        <div class="property-input">
+            <div class="search-properties">
+                <form action="#">
+                    <legend>Search Properties</legend>
+                    <div class="input-field">
+                        <label for="">Keyword:</label>
+                        <input type="text" name="from-place" id="from-place" placeholder="Any">
+                    </div>
+                    
+                    <div class="select">
+                        <label for="">Property Status:</label>
+                        <select class="cs-select select-status">
+                        <option value="" disabled selected>Any</option>
+                        <option value="1">Rent</option>
+                        <option value="2">Sale</option>
+                    </select>
+                    </div>
+
+                    <div class="select">
+                        <label for="">Property Type:</label>
+                        <select class="cs-select select-type">
+                        <option value="" disabled selected>Any</option>
+                        <option value="1">House</option>
+                        <option value="2">Apartment</option>
+                        <option value="3">Office</option>
+                        </select>
+                    </div>
+                    
+                    <div class="input-field">
+                    <label for="">Location:</label>
+                    <input type="text" name="from-place" id="from-place" placeholder="Any">
+                    </div>
+                    
+                    <div class="select">
+                        <label for="">Price:</label>
+                        <div class="wide">
+                        <select class="cs-select select-price">
+                        <option value="" disabled selected>From</option>
+                        <option value="1">$1000</option>
+                        <option value="2">$2000</option>
+                        <option value="3">$3000</option>
+                        <option value="1">$4000</option>
+                        <option value="2">$5000</option>
+                        </select>
+                        <select class="cs-select select-price">
+                        <option value="" disabled selected>To</option>
+                        <option value="1">$5000</option>
+                        <option value="2">$6000</option>
+                        <option value="3">$7000</option>
+                        <option value="1">$8000</option>
+                        <option value="2">$9000</option>
+                        </select>
+                        </div>
+                    </div>
+                    
+                    <div class="select">
+                        <label for="">Bedrooms:</label>
+                        <select class="cs-select select-bedrooms">
+                        <option value="" disabled selected>Any</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="3">4</option>
+                        </select>
+                    </div>
+                    
+                    <div class="select">
+                        <label for="">Bathrooms:</label>
+                        <select class="cs-select select-bathrooms">
+                        <option value="" disabled selected>Any</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        </select>
+                    </div>
+                    
+                    <div class="select">
+                        <label for="">Area:</label>
+                        <div class="wide">
+                        <select class="cs-select select-area">
+                        <option value="" disabled selected>From</option>
+                        <option value="1">60 m²</option>
+                        <option value="2">75 m²</option>
+                        <option value="3">80 m²</option>
+                        </select>
+                        <select class="cs-select select-area">
+                        <option value="" disabled selected>To</option>
+                        <option value="1">110 m²</option>
+                        <option value="2">115 m²</option>
+                        <option value="3">125 m²</option>
+                        </select>
+                        </div>
+                    </div>
+                    
+                    <div class="select">
+                        <label for="">Parking Spots:</label>
+                        <select class="cs-select">
+                        <option value="" disabled selected>Any</option>
+                        <option value="1">None</option>
+                        <option value="2">1</option>
+                        </select>
+                    </div>
+                    
+                    <input type="submit" name="search" id="search" value="Search">
+                </form>
+            </div>
+            <div class="bg-img"></div>
+        </div>
+    </section>
+
+    <!-- START-second-section -->
+    <section class="features">
+        <div class="container">
+            <div class="assets">
+                <img src="./assets/img/placeholder.png" alt="">
+                <div class="body">
+                    <h3>Move House</h3>
+                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            <div class="assets">
+                <img src="./assets/img/mortgage.png" alt="">
+                <div class="body">
+                    <h3>Mortgage</h3>
+                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div> 
+            <div class="assets">
+                <img src="./assets/img/wallet.png" alt="">
+                <div class="body">
+                    <h3>Make Money</h3>
+                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            <div class="assets">
+                <img src="./assets/img/graph.png" alt="">
+                <div class="body">
+                    <h3>Business Home</h3>
+                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            <div class="assets">
+                <img src="./assets/img/megaphone.png" alt="">
+                <div class="body">
+                    <h3>Marketing</h3>
+                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            <div class="assets">    
+                <img src="./assets/img/bubble-chat.png" alt=""></span>
+                <div class="body">
+                    <h3>Explorer</h3>
+                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- START-third-section -->
+    <section class="blog">
+        <div class="heading-section">
+            <h3>Popular Properties</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
+        </div>
+        <div class="popular-properties">
+            <div class="card">
+                <!--img,spanin edhe ul mi bo me ni div-->
+                <div class="prop-card">
+                    <img src="./assets/img/property-1.jpg" alt="property-1">
+                    <span class="status">Sale</span>
+                    <ul class="list-details">
+                        <li>2000 ft sq</li>
+                        <li>4 Bedrooms</li>
+                        <li>2 Bathrooms</li>
+                        <li>1 Garage</li>
+                    </ul>
+                </div>
+                <div class="prop-details">
+                    <h3>Property in California</h3>
+                    <span class="price">$1 300 000</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores.</p>
+                    <br>
+                    <address>Thomas Street, St. Louis, MO 8990, USA</address>
+                </div>
+            </div>
+            <div class="card">
+                <div class="prop-card">
+                    <img src="./assets/img/property-2.jpg" alt="property-1">
+                    <span class="status">Rent</span>
+                    <ul class="list-details">
+                        <li>2000 ft sq</li>
+                        <li>4 Bedrooms</li>
+                        <li>2 Bathrooms</li>
+                        <li>1 Garage</li>
+                    </ul>
+                </div>
+                <div class="prop-details">
+                    <h3>Modern Apartment in NY</h3>
+                    <span class="price">$3200/month</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores.</p>
+                    <br>
+                    <address>Thomas Street, St. Louis, MO 8990, USA</address>
+                </div>
+            </div>
+            <div class="card">
+                <div class="prop-card">
+                    <img src="./assets/img/property-3.jpg" alt="property-1">
+                    <span class="status">Rent</span>
+                    <ul class="list-details">
+                        <li>2000 ft sq</li>
+                        <li>4 Bedrooms</li>
+                        <li>2 Bathrooms</li>
+                        <li>1 Garage</li>
+                    </ul>
+                </div>
+                <div class="prop-details">
+                    <h3>Wooden House in Vermont</h3>
+                    <span class="price">$4000/month</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores.</p>
+                    <br>
+                    <address>Thomas Street, St. Louis, MO 8990, USA</address>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="agents">
+            <div class="title">
+                <h3>Our Agents</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
+            </div>
+                <div class="our-agents">
+                <div class="agent">
+                    <img src="./assets/img/user-1.jpg" alt="agent-1">
+                    <h3>Jean Smith</h3>
+                    <p>Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat.</p>
+                    <div class="social-icon">
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-solid fa-basketball"></i></a>
+                    </div>
+                </div>
+                <div class="agent">
+                    <img src="./assets/img/user-2.jpg" alt="agent-1">
+                    <h3>Hush Raven</h3>
+                    <p>Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat.</p>
+                    <div class="social-icon">
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-solid fa-basketball"></i></a>
+                    </div>
+                </div>
+                <div class="agent">
+                    <img src="./assets/img/user-3.jpg" alt="agent-1">
+                    <h3>Alex King</h3>
+                    <p>Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat.</p>
+                    <div class="social-icon">
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-solid fa-basketball"></i></a>
+                    </div>
+                </div>
+                <div class="agent">
+                    <img src="./assets/img/user-4.jpg" alt="agent-1">
+                    <h3>John Doe</h3>
+                    <p>Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat.</p>
+                    <div class="social-icon">
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-solid fa-basketball"></i></a>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="contact-form">
+            <div class="form">
+            <h3>Ask an agent, We're here to help 24/7</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis</p>
+                <input type="text" name="name" id="" placeholder="Name">
+                <br>
+                <input type="text" name="email" id="" placeholder="Email">
+                <br>
+                <textarea name="message" id="" cols="30" rows="7" placeholder="Message..."></textarea>
+                <br>
+                <input type="submit" name="submit" id="" value="Send Message">
+            </div>
+            <div class="agent-img"></div>
+        </div>
+    </section>
+    <!-- START-footer -->
+    <footer>
+        <div class="footer">
+            <div class="about-us">
+                <h3>About Homestate</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
+            </div>
+            <div class="links">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Properties</a></li>
+                    <li><a href="#">Agents</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">FAQ / Contact</a></li>
+                </ul>
+            </div>
+            <div class="info">
+                <h3>Information</h3>
+                <ul>
+                    <li><a href="#">Terms & Condition</a></li>
+                    <li><a href="#">License</a></li>
+                    <li><a href="#">Privacy & Policy</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="newsletter">
+                <h3>Newsletter</h3>
+                <p>Subscribe for our newsletter</p>
+                <input type="text" name="" id="email" placeholder="Enter your email">
+                <button type="submit"><i class="fa-sharp fa-solid fa-paper-plane"></i></button>
+            </div>
+            <div class="socials">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-solid fa-basketball"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
